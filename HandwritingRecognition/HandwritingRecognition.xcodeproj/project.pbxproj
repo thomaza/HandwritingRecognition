@@ -13,6 +13,7 @@
 		51B899381FD64AC600F5444C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B899371FD64AC600F5444C /* Assets.xcassets */; };
 		51B8993B1FD64AC600F5444C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B899391FD64AC600F5444C /* LaunchScreen.storyboard */; };
 		51B899431FD64CA100F5444C /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B899421FD64CA100F5444C /* CanvasView.swift */; };
+		51B899451FD657BB00F5444C /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51B899441FD657BB00F5444C /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		51B8993A1FD64AC600F5444C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51B8993C1FD64AC600F5444C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51B899421FD64CA100F5444C /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		51B899441FD657BB00F5444C /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		51B8992F1FD64AC600F5444C /* HandwritingRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				51B899441FD657BB00F5444C /* MNIST.mlmodel */,
 				51B899301FD64AC600F5444C /* AppDelegate.swift */,
 				51B899321FD64AC600F5444C /* ViewController.swift */,
 				51B899421FD64CA100F5444C /* CanvasView.swift */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B899451FD657BB00F5444C /* MNIST.mlmodel in Sources */,
 				51B899331FD64AC600F5444C /* ViewController.swift in Sources */,
 				51B899311FD64AC600F5444C /* AppDelegate.swift in Sources */,
 				51B899431FD64CA100F5444C /* CanvasView.swift in Sources */,
